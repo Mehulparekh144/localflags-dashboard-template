@@ -101,7 +101,7 @@ export default async function LocalFlagsPage() {
                       <TableRow key={flag.id} className="group">
                         <TableCell className="font-medium">
                           <Link
-                            href={`/localflags/${flag.name}`}
+                            href={`/localflags/${flag.id}`}
                             className="flex items-center gap-2 hover:text-primary transition-colors"
                           >
                             {flag.name}
